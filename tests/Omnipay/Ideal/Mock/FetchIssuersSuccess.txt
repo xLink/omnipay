@@ -1,0 +1,35 @@
+HTTP/1.1 200 OK
+Date: Sun, 23 Jun 2013 04:46:28 GMT
+Server: Atos Worldline GmbH
+X-Powered-By:
+RC: APP
+PT: 149
+Content-Type: text/xml;charset=utf-8
+Content-Length: 1830
+Set-Cookie: ROUTEID=.int1; path=/
+Connection: close
+
+<?xml version="1.0" encoding="UTF-8"?><DirectoryRes xmlns="http://www.idealdesk.com/ideal/messages/mer-acq/3.3.1" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" version="3.3.1">
+    <createDateTimestamp>2013-06-23T04:46:28.268Z</createDateTimestamp>
+    <Acquirer>
+        <acquirerID>0050</acquirerID>
+    </Acquirer>
+    <Directory>
+        <directoryDateTimestamp>2013-06-23T04:46:28.268Z</directoryDateTimestamp>
+        <Country>
+            <countryNames>Nederland</countryNames>
+            <Issuer>
+                <issuerID>INGBNL2A</issuerID>
+                <issuerName>Issuer Simulation V3 - ING</issuerName>
+            </Issuer>
+            <Issuer>
+                <issuerID>RABONL2U</issuerID>
+                <issuerName>Issuer Simulation V3 - RABO</issuerName>
+            </Issuer>
+        </Country>
+    </Directory>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>dOczXzBUtBIEntrqNYsK1Yedcm2UWEmH3jBrAWVIa04=</DigestValue></Reference></SignedInfo><SignatureValue>KObi8b1ob9RYjBjH9IcVu1p2Shj5Gqw/S6r0k1wgLykqbCDXqV0oLardrK0kH2yGh+5jCKJm9pVR
+A5O2hQXgEGzj+CNeILKeT15RjxVdqwnt/nPyYc9y50yRLctu4mkz98tJb3VTGyF7H9TqJ/abx+RY
+8OU+Z2rhZZE2+jFS4Yk1e760OlHN3DJRvPBbgGKiNekwZkT0/QEqWYa4v2FfkCMltcaSCqXcZP5d
+MYWGvAY2ynl14KgrbcaXQZuZ10l2tnczOaQ9cIl4YsSwtgKWNkkBGMc/Wqh08WHUBoaWSY3rZDfp
+Y/HrH1qlB4jEaf6koKsypXjSQ8Hla2mrbfWFhQ==</SignatureValue><KeyInfo><KeyName>FABA03D7B8E32DEB06FA4FA5B66DE62CED1CA6B7</KeyName></KeyInfo></Signature></DirectoryRes>

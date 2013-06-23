@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Date: Sun, 23 Jun 2013 04:58:17 GMT
+Server: Atos Worldline GmbH
+X-Powered-By:
+RC: DEC_IDIX1600
+PT: 120
+Content-Type: text/xml;charset=utf-8
+Content-Length: 1689
+Set-Cookie: ROUTEID=.int1; path=/
+Connection: close
+
+<?xml version="1.0" encoding="UTF-8"?><AcquirerErrorRes xmlns="http://www.idealdesk.com/ideal/messages/mer-acq/3.3.1" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" version="3.3.1">
+    <createDateTimestamp>2013-06-23T04:58:17.734Z</createDateTimestamp>
+    <Error>
+        <errorCode>IX1600</errorCode>
+        <errorMessage>Mandatory value missing</errorMessage>
+        <errorDetail>Field generating error: merchantID</errorDetail>
+        <suggestedAction>Please try again later or pay using another payment method.</suggestedAction>
+        <consumerMessage>Betalen met iDEAL is nu niet mogelijk. Probeer het later nogmaals of betaal op een andere manier.</consumerMessage>
+    </Error>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>b7IBh8wnNt1WkkW2W9FPsSA+xlM4I1//fB7p3/1Vs6I=</DigestValue></Reference></SignedInfo><SignatureValue>MbEYqBxP+1e6eRo/Ku0UAv+oNwXvZ6zqKuQPsKcbWukq6VJxFkB664Pg08LUn4y019oF8VtpCsUG
+2s3FonYm9FSTLQdAodF2N5lmqSfeEtpqmjNd5LFwpWwcvKvVEvlzfSjkwqqFit7c/Gt9/ggYvZgF
+EjzB/h0ZEJHt0hXlmACw07D5oYq2PjX+zJLdxJPISiU7JpTujKXqQsYwVxHeTjalCXG2lMqgoZKT
++lCw/f7O7YXq+vj6yDoisau92e0+vo5uqCxWkGy1g870kuyiDdVhGWi5aOhR+SLjmzYMRBDqHAxo
+NBCwZCMA+3gjGFawYboH7lbzrhtY+TcUHEM5lQ==</SignatureValue><KeyInfo><KeyName>FABA03D7B8E32DEB06FA4FA5B66DE62CED1CA6B7</KeyName></KeyInfo></Signature></AcquirerErrorRes>
