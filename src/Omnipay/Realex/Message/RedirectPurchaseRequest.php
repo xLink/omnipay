@@ -38,6 +38,12 @@ class RedirectPurchaseRequest extends AbstractRequest
         return $this->setParameter('secret', $value);
     }
 
+    // Omnipay wants a . in the amount, but Realex doesnt support it
+    public function getAmount()
+    {
+        return str_replace('.', '', (string) ( $this->getParameter('amount') * 100 ) );
+    }
+
     protected function getTimestamp()
     {
         return date('YmdHis');
